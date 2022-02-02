@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffd90f;
+}
+
+body{
+    background-color: white;
+    margin: 0 15% 0 15%;
+}
+
+header{
+    background-color: #70D1FF;
+    display: block;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding-top: 3px;
+}
+
+#famille{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+main{
+    display: flex;
+}
+
+nav{
+    display: block;
+    text-align: center;
+    flex: 1;
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    background-color: #70D1FF;
+    text-align: center;
+       
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+   padding: 1em;
+}
+
+a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+article{
+    flex: 3;
+    margin-left: 15px;
+}
+
+h1{
+    color: #ffd90f;
+    font-size: 40px;
+    border-top: 4px dashed #70D1FF;
+    margin:0 0 0 15px;
+    padding-top: 15px;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+}
+#gallery img{
+    border: 2px solid black;
+    width: 100%;
+}
+
+aside{
+    background-color: #70D1FF;
+    margin:0 10px 15px 10px;
+    text-align: center;
+    flex: 1.5;
+}
+
+aside img{
+    width: 55%;
+    border: 2px solid white;
+}
+
+h3{
+    color:white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h4{
+    color: white;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+aside p{
+    margin: 0 10px 20px 10px;
+    color: white;
+    text-align: justify;
+}
+
+footer{
+    background-color: #1791FF;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin: 5px 0 0 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
